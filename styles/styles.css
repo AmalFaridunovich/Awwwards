@@ -1,0 +1,722 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "opensans-regular";
+}
+a{
+    text-decoration: none;
+}
+body{
+    height: 200vh;
+    background-color: #F4F7F6;
+}
+header{
+    width: 100%;
+    height: 160px;
+    position: fixed;
+    background-color: #F4F7F6;
+    border-bottom: 1px solid #E6EAEA;
+    z-index: 101;
+}
+main{
+   padding-top: 160px;
+   z-index: 100;
+   
+}
+footer{
+    width: 100%;
+    background-color: #fff;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #E6EAEA;
+    
+}
+.header-bottom{
+    width: 40%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-top-menu-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    border-right: 1px solid #E6EAEA;
+    margin-left: 10px;
+}
+.header-top-menu-img{
+    margin-right: 5px;
+    filter: invert(0);
+    transition: 300ms ease;
+}
+.header-top-menu-text{
+    font-size: 14px;
+    color: #000;
+    margin-right: 20px;
+    transition: 300ms ease;
+}
+.header-top-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.header-top-search{
+    margin-left: 10px;
+}
+.header-top-item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo{
+    margin-left: 300px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 800;
+}
+.header-register-link{
+    margin: 6px;
+    color: #000;
+    font-weight: 800;
+    transition: 300ms ease;
+}
+.header-top-btn{
+    padding: 0 20px;
+    height: 80px;
+    border: none;
+    background-color: #49C5B6;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 8px;
+    transition: 300ms ease;
+}
+.header-filter-wrap{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 80px;
+    border-right: 1px solid #E6EAEA;
+    padding: 0 10px;
+}
+.header-filter-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 0 15px;
+    color: #000;;
+    border-right: 1px solid #E6EAEA;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: transparent;
+    transition: 300ms ease;
+}
+.header-filter-btn img{
+    margin-left: 3px;
+}
+/* ==============main============ */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.main-title{
+    font-size: 16px;
+    padding: 50px 0;
+
+}
+.main-title-link{
+    color: #49C5B6;
+    transition: 400ms ease;
+}
+/* ------------------------ */
+.wrapper{
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-auto-rows: 350px;
+   grid-gap: 30px;
+}
+.product{
+    background-color: white;
+}
+/* -------------------------------- */
+.product-img{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/hellomon-img.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-2{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/locmotive-img.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-3{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/marmont.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-4{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/upqode-img.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-5{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/adveris-img.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-6{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/super-hero-img.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-7{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/imersive-img.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-8{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/adoratio-img.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-9{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/dogstudio-img.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-10{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/area17-img.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-11{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/shiftbrain-img.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-img-12{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-image: url(../images/fcink-img.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/hellomon-logo.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-logo-2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/locomotive-logo.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-logo-3{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/marmont-logo.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.product-logo-4{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/upqode-logo.jpeg);
+    background-position: center;
+    background-size: cover;
+  
+}
+.product-logo-5{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/adveris-logo.png);
+    background-position: center;
+    background-size: cover;
+  
+}
+.product-logo-6{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/super-hero--logo.png);
+    background-position: center;
+    background-size: cover;
+  
+}
+.product-logo-7{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/imersive-logo.jpeg);
+    background-position: center;
+    background-size: cover;
+  
+}
+.product-logo-8{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/adoratio-logo.jpg);
+    background-position: center;
+    background-size: cover;
+  
+}
+.product-logo-9{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/dogstudio-logo.jpg);
+    background-position: center;
+    background-size: cover;
+  
+}
+.product-logo-10{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/area17-logo.jpg);
+    background-position: center;
+    background-size: cover;
+  
+}
+.product-logo-11{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/shiftbrain-logo.png);
+    background-position: center;
+    background-size: cover;
+  
+}
+.product-logo-12{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: -35px;
+    left: 105px;
+    background-image: url(../images/fcink-logo.jpg);
+    background-position: center;
+    background-size: cover;
+  
+}
+/* --------------------------- */
+.product-dark{
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    transition: 300ms ease;
+}
+.product-info{
+    width: 100%;
+    height: 220px;
+    padding-top: 40px;
+
+}
+.product-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    padding-top: 10px;
+
+}
+.product-site{
+    /* margin-left: 90px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 900;
+    color: #49C5B6;
+    transition: 500ms ease;
+    /* display: inline; */
+}
+.product-country{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: 200;
+    color: #000;
+}
+.product-record-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.product-record{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f0f0f0;
+    font-size: 10px;
+    color: #000;
+    padding: 10px;
+    margin: 0 3px;
+
+}
+.product-record:nth-child(4){
+    border-color: black ;
+}
+.more-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.pages-wrap{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #fff;
+
+}
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #f0f0f0;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    transition: 300ms ease;
+}
+
+.page:nth-child(5){
+    border-right: none;
+}
+.page-active{
+    background-color: #000;
+    color: white;
+}
+.more-btn{
+    width: 350px;
+    height: 60px;
+    background-color: #000;
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "poppins-thin";
+    transition: 500ms ease;
+}
+/* -------------------------- */
+
+.footer-top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 80px;
+
+}
+.footer-page-links{
+    width: 100%;
+    padding: 20px 10px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.footer-page-links a{
+    color: black;
+    transition: 300ms ease;
+}
+.footer-soc-links{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+
+}
+.footer-soc-links a{
+    color: black;
+    font-family: "opensans-thin";
+    transition: 300ms ease;
+    
+}
+.footer-top-left{
+    font-size: 16px;
+}
+.footer-top-right p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.conference-link{
+    color: black;
+    font-weight: 700;
+    border-bottom: 1px solid grey;
+    transition: 400ms ease;
+}
+.footer-top-right img{
+    margin: 0 5px;
+} 
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top: 1px solid #f0f0f0;
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom-left{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-bottom-link{
+    margin-right: 10px;
+    color: black;
+    transition: 300ms ease;
+}
+.united{
+    display: flex;
+    align-items: center;
+}
+.footer-bottom-right{
+    font-size: 13px;
+}
+.footer-bottom-right a{
+    color: black;
+    transition: 300ms ease;
+}
+
+/* ----------анимации---------- */
+
+.header-top-menu-text:hover{
+    color: grey;
+}
+.header-top-menu-img:hover{
+    filter: invert(50%);
+}
+.header-register-link:hover{
+    color: grey;
+}
+.header-top-btn:hover{
+    background-color: #2EA99D;
+}
+.header-filter-btn:hover{
+    background-color: #fff;
+    color: grey;
+}
+.main-title-link:hover{
+    color: #000;
+}
+/* ---------------------- */
+.product-img:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-2:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-3:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-4:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-5:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-6:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-7:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-8:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-9:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-10:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-11:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.product-img-12:hover .product-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+/* -------------------------- */
+.product-site:hover{
+    color: black;
+}
+.page:hover{
+    background-color: #f0f0f0;
+}
+.page-active:hover{
+    background-color: #000;
+}
+.more-btn:hover{
+    background-color: rgba(0, 0, 0, 0.753);
+}
+.footer-page-links a:hover{
+    color: grey;
+
+}
+.footer-soc-links a:hover{
+    color: grey;
+}
+.conference-link:hover{
+    border-color: #000;
+}
+.footer-bottom-link:hover{
+    color: grey;
+}
+.footer-bottom-right a:hover{
+    color: grey;
+}

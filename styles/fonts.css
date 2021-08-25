@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "poppins-thin";
+    src: url(../fonts/poppins/Poppins-Thin.ttf)
+}
+@font-face {
+    font-family: "poppins-bold";
+    src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: "poppins-regular";
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'roboto-regular';
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+   
+}
+@font-face {
+  font-family: "open-sans";
+  src:  url(../fonts/open-sans/OpenSans-ExtraBold.ttf);
+}
+@font-face{
+    font-family: "opensans-thin";
+    src: url(../fonts/open-sans/OpenSans-Light.ttf);
+}
+@font-face{
+    font-family: "nunito light";
+    src: url(../fonts/nunito/Nunito-Light.ttf);
+}
+@font-face{
+    font-family: "opensans-bold";
+    src: url(../fonts/open-sans/OpenSans-Bold.ttf);
+}
+@font-face{
+    font-family: "opensans-regular";
+    src: url(../fonts/open-sans/OpenSans-Regular.ttf);
+}
